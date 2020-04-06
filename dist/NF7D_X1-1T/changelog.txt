@@ -1,0 +1,12 @@
+NF7-S v2.0 BIOS MOD X1 by I.nfraR.ed
+
+- Based on last official bios v27
+- Updated SATA RAID Silicon Image to latest 4.4.02
+- Updated NVDAMC module to v3.19 (1T variant)
+- Removed /fnt1 "font1.awd", which doesn't seem to have any negative effect
+- Replaced NIC ROM with Plop Boot manager which adds USB boot option
+- Changed "Unknown CPU Type" string to "AMD Athlon XP-M"
+- Reorganized BIOS layout, renamed labels, changed setup and failsafe defaults
+- Enabled x23 and x24 multiplier selection
+- Additional RAM timings via custom ISA OPTION ROM (tRC, tRFC, tREF, Drive Strength and Slew Rate available in setup menu)
+- Custom ROMSIP table (ED) with soft L12 mod
