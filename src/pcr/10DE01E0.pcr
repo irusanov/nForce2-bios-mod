@@ -1,0 +1,23 @@
+PCR(PCI Configration Registers) Editor / WPCREDIT for WIN32
+Copyright (c) 1998  H.Oda!
+
+[COMMENT]=Author - Áedán (www.aoaforums.com) Version 0.02
+[MODEL]=nForce2 
+[VID]=10DE:nVidia
+[DID]=01E0:Host Bridge
+
+(00)=Vendor Identification
+(01)=Vendor Identification
+(02)=Device Identification
+(03)=Device Identification
+
+[44:4]=AGP Fast Write Enable
+
+[49:1]=AGP SBA Enable
+
+[6F:4]=Bus Stop Grant Enable
+
+[80:3]=AGP Aperture Size
+[80:2]=1111= 32 1110= 64
+[80:1]=1100=128 1000=256
+[80:0]=0000=512
